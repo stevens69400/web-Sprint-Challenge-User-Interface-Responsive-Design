@@ -4,25 +4,39 @@
 
 <head>
     <meta charset="utf-8">
-
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sprint Challenge - Menu</title>
 
     <link href="https://fonts.googleapis.com/css?family=Roboto|Rubik" rel="stylesheet">
     <script src="https://kit.fontawesome.com/5b12ffad4b.js" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="css/menu.css" />
 </head>
 
 <body>
     <div>
         <!-- header -->
         <header>
-            BLOOMTECH BAR AND GRILL
+			<div class="header">
+				<a href="index.html"><h1>BLOOMTECH BAR AND GRILL</h1></a>
 
-            <!-- nav -->
-            Menu
-            Reservations
-            Special Offers
-            Contact
-        </header>
+				<!-- nav -->
+			 	<nav>
+				 <div class="links">
+					<a href="menu.html">Menu</a>
+					<a href="#reservations">Reservations</a>
+					<a href="#specialOffers">Special Offers</a>
+					<a href="#contact">contact</a>
+				 </div>
+				</nav>
+				 <div>	
+					<!--Insert faceboook, insta,....-->
+					<img src="https://fontawesome.com/search?q=facebook&s=solid%2Cbrands">
+						<a href="https://fontawesome.com/search?q=twitter&s=solid%2Cbrands"></a>
+						<a href="https://fontawesome.com/search?q=instagram&s=solid%2Cbrands"></a>
+						<img src="https://fontawesome.com/search?q=facebook&s=solid%2Cbrands">
+				</div> 
+			</div>
+		</header>	
 
         <!-- spacer -->
         <div class="spacer"></div>
@@ -118,18 +132,30 @@
 
         <!-- footer -->
         <footer>
-            <!-- email signup -->
-            Join our mailing list!
-            Sign Up
-            <!-- nav -->
-            Menu
-            Reservations
-            Special Offers
-            Contact
-            <!-- copyright -->
-            ©2022 BloomTech Restaurant Group, Inc. All Rights Reserved.
-        </footer>
-    </div>
+			<!-- email signup -->
+			<section>
+				<div class="joinMail">
+					<h4>Join our mailing list!</h4>
+					<form>
+						<input type="text" placeholder="Email Address">
+						<input type="submit" class="button" value="Sign Up" />
+						
+					</form>
+	
+				</div>
+		</section>
+		    <nav>		
+				<div class="links">
+					<a href="#menu">Menu</a>
+					<a href="#reservations">Reservations</a>
+					<a href="#specialOffers">Special Offers</a>
+					<a href="#contact">Contact</a>	
+				</div>
+			</nav>
+			<!-- copyright -->
+			<p>©2022 BloomTech Restaurant Group, Inc. All Rights Reserved.</p>
+		</footer>
+	</div>
 </body>
 
-</html>
+</html> 
